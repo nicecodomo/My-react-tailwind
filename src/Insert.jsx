@@ -68,7 +68,7 @@ function Insert() {
                             <button
                                 onClick={insertName}
                                 className='btn btn-success w-full mt-4'
-                            >Edit
+                            >Insert
                             </button>
                         </div>
                     </div>
