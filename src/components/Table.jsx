@@ -72,7 +72,7 @@ export default function Table() {
                                     <tr>
                                         <td>{todo.id}</td>
                                         <td>{todo.name}</td>
-                                        <td>
+                                        <td className='flex justify-center'>
                                             <Link to={`/todo/${todo.id}`}>
                                                 <button
                                                     className='btn btn-square border-collapse border-slate-600'
